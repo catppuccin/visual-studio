@@ -1,37 +1,37 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://code.visualstudio.com">VSCode</a>
+	Catppuccin for <a href="https://visualstudio.microsoft.com/">Visual Studio</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <p align="center">
-    <a href="https://github.com/catppuccin/vscode/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/vscode?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/vscode/issues"><img src="https://img.shields.io/github/issues/catppuccin/vscode?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-    <a href="https://github.com/catppuccin/vscode/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/vscode?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+    <a href="https://github.com/djflan/Catppuccin-Visual-Studio-Themes/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/vscode?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+    <a href="https://github.com/djflan/Catppuccin-Visual-Studio-Themes/issues"><img src="https://img.shields.io/github/issues/catppuccin/vscode?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+    <a href="https://github.com/djflan/Catppuccin-Visual-Studio-Themes/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/vscode?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/vscode/main/assets/ss.png"/>
+  <img src="https://raw.githubusercontent.com/djflan/Catppuccin-Visual-Studio-Themes/main/assets/Catppuccin%20Mocha.png"/>
 </p>
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="https://user-images.githubusercontent.com/79978224/183617750-085cb606-eea0-4c7a-a8b9-10426617c0a0.png"/>
+<img src="https://raw.githubusercontent.com/djflan/Catppuccin-Visual-Studio-Themes/main/assets/Catppuccin%20Latte.png"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="https://user-images.githubusercontent.com/79978224/183618317-9adec6d4-b9da-4c6f-b2f4-9752054c98f4.png"/>
+<img src="https://raw.githubusercontent.com/djflan/Catppuccin-Visual-Studio-Themes/main/assets/Catppuccin%20Frapp%C3%A9.png"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="https://user-images.githubusercontent.com/79978224/183618382-61a17330-e61f-47c7-b0e1-ffb309ddb459.png"/>
+<img src="https://raw.githubusercontent.com/djflan/Catppuccin-Visual-Studio-Themes/main/assets/Catppuccin%20Macchiato.png"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="https://user-images.githubusercontent.com/79978224/183618460-075a74a2-7d3e-46d8-997a-cfa6fc8cbaab.png"/>
+<img src="https://raw.githubusercontent.com/djflan/Catppuccin-Visual-Studio-Themes/main/assets/Catppuccin%20Mocha.png"/>
 </details>
 
 ## Usage
