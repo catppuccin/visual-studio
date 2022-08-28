@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/djflan/Catppuccin-Visual-Studio-Themes/main/assets/Catppuccin%20Mocha.png"/>
+  <img src="https://raw.githubusercontent.com/djflan/Catppuccin-Visual-Studio-Themes/main/assets/Catppuccin%20Preview.png"/>
 </p>
 
 ## Screenshots:
