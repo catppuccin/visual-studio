@@ -6,31 +6,31 @@
 </h3>
 
 <p align="center">
-    <a href="https://github.com/djflan/Catppuccin-Visual-Studio-Themes/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/vscode?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-    <a href="https://github.com/djflan/Catppuccin-Visual-Studio-Themes/issues"><img src="https://img.shields.io/github/issues/catppuccin/vscode?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-    <a href="https://github.com/djflan/Catppuccin-Visual-Studio-Themes/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/vscode?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+    <a href="https://github.com/djflan/Catppuccin-Visual-Studio-Themes/stargazers"><img src="https://img.shields.io/github/stars/djflan/Catppuccin-Visual-Studio-Themes?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+    <a href="https://github.com/djflan/Catppuccin-Visual-Studio-Themes/issues"><img src="https://img.shields.io/github/issues/djflan/Catppuccin-Visual-Studio-Themes?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+    <a href="https://github.com/djflan/Catppuccin-Visual-Studio-Themes/contributors"><img src="https://img.shields.io/github/contributors/djflan/Catppuccin-Visual-Studio-Themes?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/djflan/Catppuccin-Visual-Studio-Themes/main/assets/Catppuccin%20Mocha.png"/>
 </p>
 
-## Previews
+## Screenshots:
 
 <details>
-<summary>🌻 Latte</summary>
+<summary>Latte</summary>
 <img src="https://raw.githubusercontent.com/djflan/Catppuccin-Visual-Studio-Themes/main/assets/Catppuccin%20Latte.png"/>
 </details>
 <details>
-<summary>🪴 Frappé</summary>
+<summary>Frappé</summary>
 <img src="https://raw.githubusercontent.com/djflan/Catppuccin-Visual-Studio-Themes/main/assets/Catppuccin%20Frapp%C3%A9.png"/>
 </details>
 <details>
-<summary>🌺 Macchiato</summary>
+<summary>Macchiato</summary>
 <img src="https://raw.githubusercontent.com/djflan/Catppuccin-Visual-Studio-Themes/main/assets/Catppuccin%20Macchiato.png"/>
 </details>
 <details>
-<summary>🌿 Mocha</summary>
+<summary>Mocha</summary>
 <img src="https://raw.githubusercontent.com/djflan/Catppuccin-Visual-Studio-Themes/main/assets/Catppuccin%20Mocha.png"/>
 </details>
 
