@@ -1,4 +1,4 @@
-﻿<Themes>
+<Themes>
   <Theme Name="Catppuccin Mocha" GUID="{17212aeb-75b2-4b6b-beb2-44d212caa2a9}" BaseGUID="{1ded0138-47ce-435e-84ef-9ec1f439b749}">
     <Category Name="ACDCOverview" GUID="{c8887ac6-3c60-4209-9d69-8f4c12a60044}">
       <Color Name="NumberedListItemActive">
@@ -1835,7 +1835,7 @@
         <Background Type="CT_RAW" Source="FFCDD6F4" />
       </Color>
       <Color Name="AutoHideTabMouseOverBorder">
-        <Background Type="CT_RAW" Source="00000000" />
+        <Background Type="CT_RAW" Source="FFCBA6F7" />
       </Color>
       <Color Name="AutoHideTabBorder">
         <Background Type="CT_RAW" Source="00000000" />
@@ -3109,7 +3109,7 @@
         <Background Type="CT_RAW" Source="FF181825" />
       </Color>
       <Color Name="AutoHideTabMouseOverText">
-        <Background Type="CT_RAW" Source="FF6C7086" />
+        <Background Type="CT_RAW" Source="FFCDD6F4" />
       </Color>
       <Color Name="FileTabButtonProvisionalHoverGlyph">
         <Background Type="CT_RAW" Source="FF6C7086" />
@@ -7610,6 +7610,42 @@
       <Color Name="JadeVariableFormatDefinition">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Rainbow Brace level 1">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FFCBA6F7" />
+      </Color>
+      <Color Name="Rainbow Brace level 2">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF74C7EC" />
+      </Color>
+      <Color Name="Rainbow Brace level 3">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FFA6E3A1" />
+      </Color>
+      <Color Name="Rainbow Brace level 4">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FFF9E2AF" />
+      </Color>
+      <Color Name="Rainbow Brace level 5">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FFFAB387" />
+      </Color>
+      <Color Name="Rainbow Brace level 6">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FFF38BA8" />
+      </Color>
+      <Color Name="Rainbow Brace level 7">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FFCBA6F7" />
+      </Color>
+      <Color Name="Rainbow Brace level 8">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF74C7EC" />
+      </Color>
+      <Color Name="Rainbow Brace level 9">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FFA6E3A1" />
       </Color>
     </Category>
     <Category Name="SearchControl" GUID="{f1095fad-881f-45f1-8580-589e10325eb8}">
