@@ -5,6 +5,8 @@
         <DisplayName>Catppuccin VS Themes</DisplayName>
         <Description xml:space="preserve">Catppuccin Themes for Visual Studio</Description>
         <MoreInfo>https://github.com/djflan/Catppuccin-Visual-Studio-Themes</MoreInfo>
+        <Icon>images\logo.png</Icon>
+        <PreviewImage>images\logo.png</PreviewImage>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
