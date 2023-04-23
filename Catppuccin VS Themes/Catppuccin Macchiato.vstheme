@@ -1258,7 +1258,7 @@
         <Background Type="CT_RAW" Source="FF24273A" />
       </Color>
       <Color Name="ComboBoxListItemBorderHover">
-        <Background Type="CT_RAW" Source="FF24273A" />
+        <Background Type="CT_RAW" Source="FFDAB4FF" />
       </Color>
       <Color Name="InnerTabInactiveHoverBackground">
         <Background Type="CT_RAW" Source="FF24273A" />
