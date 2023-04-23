@@ -5159,6 +5159,42 @@
       </Color>
     </Category>
     <Category Name="Cpp Text Editor MEF Items" GUID="{75a05685-00a8-4ded-bae5-e7a50bfa929a}">
+      <Color Name="Rainbow Brace level 1">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FFCBA6F7" />
+      </Color>
+      <Color Name="Rainbow Brace level 2">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF74C7EC" />
+      </Color>
+      <Color Name="Rainbow Brace level 3">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FFA6E3A1" />
+      </Color>
+      <Color Name="Rainbow Brace level 4">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FFF9E2AF" />
+      </Color>
+      <Color Name="Rainbow Brace level 5">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FFFAB387" />
+      </Color>
+      <Color Name="Rainbow Brace level 6">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FFF38BA8" />
+      </Color>
+      <Color Name="Rainbow Brace level 7">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FFCBA6F7" />
+      </Color>
+      <Color Name="Rainbow Brace level 8">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF74C7EC" />
+      </Color>
+      <Color Name="Rainbow Brace level 9">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FFA6E3A1" />
+      </Color>
       <Color Name="property name">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_RAW" Source="FFEEBEBE" />
