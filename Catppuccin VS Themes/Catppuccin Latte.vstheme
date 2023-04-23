@@ -5161,39 +5161,39 @@
     <Category Name="Cpp Text Editor MEF Items" GUID="{75a05685-00a8-4ded-bae5-e7a50bfa929a}">
       <Color Name="Rainbow Brace level 1">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFCBA6F7" />
+        <Foreground Type="CT_RAW" Source="FF8839ef" />
       </Color>
       <Color Name="Rainbow Brace level 2">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF74C7EC" />
+        <Foreground Type="CT_RAW" Source="FF209fb5" />
       </Color>
       <Color Name="Rainbow Brace level 3">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFA6E3A1" />
+        <Foreground Type="CT_RAW" Source="FF40a02b" />
       </Color>
       <Color Name="Rainbow Brace level 4">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFF9E2AF" />
+        <Foreground Type="CT_RAW" Source="FFdf8e1d" />
       </Color>
       <Color Name="Rainbow Brace level 5">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFFAB387" />
+        <Foreground Type="CT_RAW" Source="FFfe640b" />
       </Color>
       <Color Name="Rainbow Brace level 6">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFF38BA8" />
+        <Foreground Type="CT_RAW" Source="FFd20f39" />
       </Color>
       <Color Name="Rainbow Brace level 7">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFCBA6F7" />
+        <Foreground Type="CT_RAW" Source="FF8839ef" />
       </Color>
       <Color Name="Rainbow Brace level 8">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF74C7EC" />
+        <Foreground Type="CT_RAW" Source="FF209fb5" />
       </Color>
       <Color Name="Rainbow Brace level 9">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFA6E3A1" />
+        <Foreground Type="CT_RAW" Source="FF40a02b" />
       </Color>
       <Color Name="property name">
         <Background Type="CT_INVALID" Source="00000000" />
