@@ -8388,7 +8388,7 @@
       </Color>
       <Color Name="ButtonDisabled">
         <Background Type="CT_RAW" Source="FF626880" />
-        <Foreground Type="CT_RAW" Source="FFC6D0F5" />
+        <Foreground Type="CT_RAW" Source="FF6C728C" />
       </Color>
       <Color Name="CallToActionButtonDisabled">
         <Background Type="CT_RAW" Source="FF626880" />
