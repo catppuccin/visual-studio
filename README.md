@@ -15,29 +15,47 @@
   <img src="https://raw.githubusercontent.com/catppuccin/visual-studio/main/assets/Catppuccin%20Preview.png"/>
 </p>
 
-## Screenshots:
+## Previews
 
 <details>
-<summary>Latte</summary>
+<summary>🌻 Latte</summary>
 <img src="https://raw.githubusercontent.com/catppuccin/visual-studio/main/assets/Catppuccin%20Latte.png"/>
 </details>
 <details>
-<summary>Frappé</summary>
+<summary>🪴 Frappé</summary>
 <img src="https://raw.githubusercontent.com/catppuccin/visual-studio/main/assets/Catppuccin%20Frapp%C3%A9.png"/>
 </details>
 <details>
-<summary>Macchiato</summary>
+<summary>🌺 Macchiato</summary>
 <img src="https://raw.githubusercontent.com/catppuccin/visual-studio/main/assets/Catppuccin%20Macchiato.png"/>
 </details>
 <details>
-<summary>Mocha</summary>
+<summary>🌿 Mocha</summary>
 <img src="https://raw.githubusercontent.com/catppuccin/visual-studio/main/assets/Catppuccin%20Mocha.png"/>
 </details>
 
-## Installation
+## Usage
 
 **Preferred method of installation**
 
 - Install the extension from the [marketplace](https://marketplace.visualstudio.com/items?itemName=dan-flanigan.Catppuccin).
 - Restart Visual Studio.
 - Choose 'Catppuccin' theme in Tools > Theme
+
+## 💝 Thanks to
+
+- [djflan](https://github.com/djflan)
+
+&nbsp;
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
+</p>
+
+<p align="center">
+	Copyright &copy; 2021-present <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a>
+</p>
+
+<p align="center">
+	<a href="https://github.com/catppuccin/catppuccin/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
+</p>
