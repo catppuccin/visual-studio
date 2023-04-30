@@ -3033,13 +3033,13 @@
         <Foreground Type="CT_RAW" Source="FF4C4F69" />
       </Color>
       <Color Name="VerticalResizeGripBegin">
-        <Background Type="CT_RAW" Source="FFDCE0E8" />
+        <Background Type="CT_RAW" Source="FF8839EF" />
       </Color>
       <Color Name="VerticalResizeGripEnd">
-        <Background Type="CT_RAW" Source="FFDCE0E8" />
+        <Background Type="CT_RAW" Source="FFDC8A78" />
       </Color>
       <Color Name="VerticalResizeGripMiddle">
-        <Background Type="CT_RAW" Source="FFDCE0E8" />
+        <Background Type="CT_RAW" Source="FFD20F39" />
       </Color>
       <Color Name="CommandBarTextMouseDown">
         <Background Type="CT_RAW" Source="FF4C4F69" />
