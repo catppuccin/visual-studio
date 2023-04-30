@@ -42,6 +42,14 @@
 - Restart Visual Studio.
 - Choose 'Catppuccin' theme in Tools > Theme
 
+**Manual installation**
+
+- Downlaod VSIX package from GitHub 'Releases'
+- Double-click package to install. 
+- Close Visual Studio if open and allow package to install.
+- Open Visual Studio
+- Choose 'Catppuccin' theme in Tools > Theme
+
 ## 💝 Thanks to
 
 - [djflan](https://github.com/djflan)
