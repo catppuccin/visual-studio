@@ -38,13 +38,13 @@
 
 **Preferred method of installation**
 
-- Install the extension from the [marketplace](https://marketplace.visualstudio.com/items?itemName=dan-flanigan.Catppuccin).
+- Install the extension from the [marketplace](https://marketplace.visualstudio.com/items?itemName=Catppuccin.CatppuccinVS).
 - Restart Visual Studio.
 - Choose 'Catppuccin' theme in Tools > Theme
 
 **Manual installation**
 
-- Downlaod VSIX package from GitHub 'Releases'
+- Download VSIX package from GitHub 'Releases'
 - Double-click package to install. 
 - Close Visual Studio if open and allow package to install.
 - Open Visual Studio

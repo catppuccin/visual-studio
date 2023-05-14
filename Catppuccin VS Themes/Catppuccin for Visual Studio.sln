@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catppuccin VS Themes", "Catppuccin VS Themes.csproj", "{6BCD2E37-F581-4683-9C17-B04575D17476}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catppuccin for Visual Studio", "Catppuccin for Visual Studio.csproj", "{6BCD2E37-F581-4683-9C17-B04575D17476}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
