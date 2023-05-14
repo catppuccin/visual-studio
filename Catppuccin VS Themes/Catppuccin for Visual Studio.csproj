@@ -13,8 +13,8 @@
     <ProjectGuid>{6BCD2E37-F581-4683-9C17-B04575D17476}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Catppuccin_VS_Themes</RootNamespace>
-    <AssemblyName>Catppuccin VS Themes</AssemblyName>
+    <RootNamespace>Catppuccin</RootNamespace>
+    <AssemblyName>Catppuccin for Visual Studio</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
     <UseCodebase>true</UseCodebase>

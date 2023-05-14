@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="Catppuccin_VS_Themes.cf093970-131b-4883-8405-0577339048b3" Version="1.3.0" Language="en-US" Publisher="Dan Flanigan" />
-        <DisplayName>Catppuccin VS Themes</DisplayName>
+        <Identity Id="Catppuccin_VS_Themes.cf093970-131b-4883-8405-0577339048b3" Version="1.4.0" Language="en-US" Publisher="Dan Flanigan" />
+        <DisplayName>Catppuccin for Visual Studio</DisplayName>
         <Description xml:space="preserve">Catppuccin Themes for Visual Studio</Description>
         <MoreInfo>https://github.com/djflan/Catppuccin-Visual-Studio-Themes</MoreInfo>
         <Icon>icon.png</Icon>
         <PreviewImage>logo.png</PreviewImage>
     </Metadata>
     <Installation>
-		<InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 18.0)">
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 18.0)">
             <ProductArchitecture>x86</ProductArchitecture>
         </InstallationTarget>
         <InstallationTarget Version="[16.0,18.0)" Id="Microsoft.VisualStudio.Pro">
