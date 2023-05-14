@@ -38,7 +38,7 @@
 
 **Preferred method of installation**
 
-- Install the extension from the [marketplace](https://marketplace.visualstudio.com/items?itemName=dan-flanigan.Catppuccin).
+- Install the extension from the [marketplace](https://marketplace.visualstudio.com/items?itemName=Catppuccin.CatppuccinVS).
 - Restart Visual Studio.
 - Choose 'Catppuccin' theme in Tools > Theme
 
