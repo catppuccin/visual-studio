@@ -1,5 +1,5 @@
 <Themes>
-  <Theme Name="Catppuccin Frappé" GUID="{217075d3-6c1c-432d-9587-ca060f7229fe}" BaseGUID="{1ded0138-47ce-435e-84ef-9ec1f439b749}">
+  <Theme Name="Catppuccin Frappé (7)" GUID="{f215a980-7da4-45b3-8020-0785d4e29ee2}" BaseGUID="{1ded0138-47ce-435e-84ef-9ec1f439b749}">
     <Category Name="ACDCOverview" GUID="{c8887ac6-3c60-4209-9d69-8f4c12a60044}">
       <Color Name="NumberedListItemActive">
         <Background Type="CT_RAW" Source="FF303446" />
@@ -562,7 +562,7 @@
         <Background Type="CT_RAW" Source="FF424242" />
       </Color>
       <Color Name="DialogSearchControlButtonDisabledGlyph">
-        <Background Type="CT_RAW" Source="FF808080" />
+        <Background Type="CT_RAW" Source="FF949CBB" />
       </Color>
       <Color Name="DialogSearchControlClearGlyph">
         <Background Type="CT_RAW" Source="FFD6D6D6" />
@@ -1567,7 +1567,7 @@
         <Background Type="CT_RAW" Source="FFD6D6D6" />
       </Color>
       <Color Name="ListItemGlyphDisabled">
-        <Background Type="CT_RAW" Source="FF808080" />
+        <Background Type="CT_RAW" Source="FF949CBB" />
       </Color>
       <Color Name="ListItemTextDisabled">
         <Background Type="CT_RAW" Source="FF5C5C5C" />
@@ -3073,16 +3073,16 @@
         <Background Type="CT_RAW" Source="FF303446" />
       </Color>
       <Color Name="ToolWindowTabGradientBegin">
-        <Background Type="CT_RAW" Source="33808080" />
+        <Background Type="CT_RAW" Source="33949CBB" />
       </Color>
       <Color Name="ToolWindowTabGradientEnd">
-        <Background Type="CT_RAW" Source="33808080" />
+        <Background Type="CT_RAW" Source="33949CBB" />
       </Color>
       <Color Name="ToolWindowTabMouseOverBackgroundBegin">
-        <Background Type="CT_RAW" Source="33808080" />
+        <Background Type="CT_RAW" Source="33949CBB" />
       </Color>
       <Color Name="ToolWindowTabMouseOverBackgroundEnd">
-        <Background Type="CT_RAW" Source="33808080" />
+        <Background Type="CT_RAW" Source="33949CBB" />
       </Color>
       <Color Name="FileTabParentText">
         <Background Type="CT_RAW" Source="80737994" />
@@ -3864,7 +3864,7 @@
         <Background Type="CT_RAW" Source="FF1F1F1F" />
       </Color>
       <Color Name="ScrollBarArrowGlyphDisabled">
-        <Background Type="CT_RAW" Source="FF808080" />
+        <Background Type="CT_RAW" Source="FF949CBB" />
       </Color>
       <Color Name="ScrollBarBorder">
         <Background Type="CT_RAW" Source="FF2E2E2E" />
@@ -4392,7 +4392,7 @@
         <Background Type="CT_RAW" Source="FFFFFFFF" />
       </Color>
       <Color Name="ColorRotationManipulator">
-        <Background Type="CT_RAW" Source="FF808080" />
+        <Background Type="CT_RAW" Source="FF949CBB" />
       </Color>
       <Color Name="ColorFaceNormals">
         <Background Type="CT_RAW" Source="FFFF19B4" />
@@ -7077,11 +7077,11 @@
       </Color>
       <Color Name="ReSharper Rearrange Left/Right Code Hint">
         <Background Type="CT_RAW" Source="FF5E5B02" />
-        <Foreground Type="CT_RAW" Source="FF808080" />
+        <Foreground Type="CT_RAW" Source="FF949CBB" />
       </Color>
       <Color Name="ReSharper Rearrange Up/Down Code Hint">
         <Background Type="CT_RAW" Source="FF10496B" />
-        <Foreground Type="CT_RAW" Source="FF808080" />
+        <Foreground Type="CT_RAW" Source="FF949CBB" />
       </Color>
       <Color Name="ReSharper Regex Invalid Character">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -7533,15 +7533,15 @@
       </Color>
       <Color Name="axml - attribute quotes">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFC0D088" />
+        <Foreground Type="CT_RAW" Source="FFA6D189" />
       </Color>
       <Color Name="axml - attribute value">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFC0D088" />
+        <Foreground Type="CT_RAW" Source="FFA6D189" />
       </Color>
       <Color Name="axml - cdata section">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFC0D088" />
+        <Foreground Type="CT_RAW" Source="FFA6D189" />
       </Color>
       <Color Name="axml - comment">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -7569,7 +7569,7 @@
       </Color>
       <Color Name="axml - resource url">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFC0D088" />
+        <Foreground Type="CT_RAW" Source="FFA6D189" />
       </Color>
       <Color Name="vsvim_blockcaret">
         <Background Type="CT_RAW" Source="FFF2D5CF" />
@@ -7782,7 +7782,7 @@
         <Background Type="CT_RAW" Source="FF51576D" />
       </Color>
       <Color Name="ActionButtonDisabledGlyph">
-        <Background Type="CT_RAW" Source="FF808080" />
+        <Background Type="CT_RAW" Source="FF949CBB" />
       </Color>
       <Color Name="ClearGlyph">
         <Background Type="CT_RAW" Source="FFD6D6D6" />
@@ -8616,7 +8616,7 @@
       </Color>
       <Color Name="XML CData Section">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFC0D088" />
+        <Foreground Type="CT_RAW" Source="FFA6D189" />
       </Color>
       <Color Name="XML Comment">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -8652,11 +8652,11 @@
       </Color>
       <Color Name="XAML Delimiter">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF808080" />
+        <Foreground Type="CT_RAW" Source="FF949CBB" />
       </Color>
       <Color Name="XAML Comment">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF57A64A" />
+        <Foreground Type="CT_RAW" Source="FF737994" />
       </Color>
       <Color Name="XAML Name">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -8668,7 +8668,7 @@
       </Color>
       <Color Name="XAML CData Section">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFC0D088" />
+        <Foreground Type="CT_RAW" Source="FFA6D189" />
       </Color>
       <Color Name="XAML Processing Instruction">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -8676,11 +8676,11 @@
       </Color>
       <Color Name="XAML Attribute Value">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFC0D088" />
+        <Foreground Type="CT_RAW" Source="FFA6D189" />
       </Color>
       <Color Name="XAML Attribute Quotes">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF808080" />
+        <Foreground Type="CT_RAW" Source="FF949CBB" />
       </Color>
       <Color Name="XAML Markup Extension Class">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -8720,11 +8720,11 @@
       </Color>
       <Color Name="XML Attribute Value">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFC0D088" />
+        <Foreground Type="CT_RAW" Source="FFA6D189" />
       </Color>
       <Color Name="XML Attribute Quotes">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFC0D088" />
+        <Foreground Type="CT_RAW" Source="FFA6D189" />
       </Color>
       <Color Name="XSLT Keyword">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
