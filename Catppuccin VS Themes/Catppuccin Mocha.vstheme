@@ -7728,8 +7728,8 @@
         <Foreground Type="CT_RAW" Source="FF11111B" />
       </Color>
       <Color Name="vsvim_commandmargin">
-        <Foreground Type="CT_RAW" Source="FFCDD6F4" />
         <Background Type="CT_RAW" Source="FF1E1E2E" />
+        <Foreground Type="CT_RAW" Source="FFCDD6F4" />
       </Color>
     </Category>
     <Category Name="SearchControl" GUID="{f1095fad-881f-45f1-8580-589e10325eb8}">

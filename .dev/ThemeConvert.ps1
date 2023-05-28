@@ -80,7 +80,7 @@ for (($i = 0); $i -lt $sourceColors.Length; $i++)
     $categoryName = $categoryNode.Name
     $categoryGuid = $categoryNode.GUID
 
-    $targetCategory = Select-Xml -Xml $targetXml -XPath "//Category[@Name=`"$categoryName`"]"
+    $targetCategory = Select-Xml -Xml $targetXml -XPath "//Category[@Name=`"$categoryName`" and @GUID=`"$categoryGuid`"]"
     if ($targetCategory -eq $null)
     {
       Write-Host "adding group $categoryName"
@@ -109,15 +109,6 @@ for (($i = 0); $i -lt $sourceColors.Length; $i++)
     {
       Write-Host "adding $nodeType node"
       $newNode = $targetXml.CreateElement("$nodeType")
-      if ($targetColor -eq "00000000")
-      {
-        $newNode.SetAttribute("Type", "CT_INVALID")
-      } else
-      {
-        $newNode.SetAttribute("Type", "CT_RAW")
-      }
-
-      $newNode.SetAttribute("Source", "FF$targetColor")
       $targetColorNode.Node.AppendChild($newNode)
       $targetNodeToModify = Select-Xml -Xml $targetColorNode.Node -XPath "$nodeType"
     }
@@ -136,6 +127,19 @@ for (($i = 0); $i -lt $sourceColors.Length; $i++)
     }
 
     $targetColorAttribute = $targetNodeToModify.Node.SetAttribute("Source", "$targetColor")
+
+    $sortedNodes = $targetColorNode.Node.ChildNodes | Sort-Object Name
+    if ($sortedNodes.Count -gt 1)
+    {
+      Write-Host "sorting $($targetColorNode.Node.Name)"
+      foreach ($sortedChild in $sortedNodes)
+      {
+        Write-Host "$($sortedChild.Name)"
+        $targetColorNode.Node.RemoveChild($sortedChild)
+        $targetColorNode.Node.AppendChild($sortedChild)
+      }
+    }
+
     Write-Host "$colorName.$nodeType = $targetColor"
   }
 }

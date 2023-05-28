@@ -11045,8 +11045,8 @@
         <Foreground Type="CT_RAW" Source="FF5B6078" />
       </Color>
       <Color Name="OverviewMarginBackground">
-        <Foreground Type="CT_INVALID" Source="00000000" />
         <Background Type="CT_RAW" Source="FF1E2030" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="OverviewMarginCaret">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -12687,8 +12687,8 @@
         <Foreground Type="CT_RAW" Source="FFCAD3F5" />
       </Color>
       <Color Name="vsvim_commandmargin">
-        <Foreground Type="CT_RAW" Source="FFCAD3F5" />
         <Background Type="CT_RAW" Source="FF24273A" />
+        <Foreground Type="CT_RAW" Source="FFCAD3F5" />
       </Color>
       <Color Name="brace matching">
         <Foreground Type="CT_RAW" Source="FF939AB7" />
@@ -12700,16 +12700,16 @@
         <Foreground Type="CT_RAW" Source="FF939AB7" />
       </Color>
       <Color Name="OverviewMarginScrollButtonsMouseOver">
-        <Foreground Type="CT_RAW" Source="FF6E738D" />
         <Background Type="CT_RAW" Source="FF1E2030" />
+        <Foreground Type="CT_RAW" Source="FF6E738D" />
       </Color>
       <Color Name="outlining.square">
-        <Foreground Type="CT_RAW" Source="FF5B6078" />
         <Background Type="CT_RAW" Source="FF24273A" />
+        <Foreground Type="CT_RAW" Source="FF5B6078" />
       </Color>
       <Color Name="OverviewMarginScrollButtonsMouseDown">
-        <Foreground Type="CT_RAW" Source="FF363A4F" />
         <Background Type="CT_RAW" Source="FF1E2030" />
+        <Foreground Type="CT_RAW" Source="FF363A4F" />
       </Color>
       <Color Name="CurrentLineActiveFormat">
         <Foreground Type="CT_RAW" Source="FF24273A" />
