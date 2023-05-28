@@ -7649,7 +7649,7 @@
       </Color>
       <Color Name="brace pair level one">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFF9E2AF" />
+        <Foreground Type="CT_RAW" Source="FFFAB387" />
       </Color>
       <Color Name="brace pair level two">
         <Background Type="CT_INVALID" Source="00000000" />
