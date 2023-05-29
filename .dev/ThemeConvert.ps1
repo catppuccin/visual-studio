@@ -70,6 +70,7 @@ $targetXml.Load($targetPath)
 for (($i = 0); $i -lt $sourceColors.Length; $i++)
 {
   $sourceColor = $sourceColors[$i].ToUpper()
+  $targetColor = $targetColors[$i].ToUpper()
   $items = Select-Xml -Xml $sourceXml -XPath "//*[contains(@Source, `"$sourceColor`")]"
   $count = $item.Length
   Write-Host "found $count items for $sourceColor"
@@ -126,8 +127,10 @@ for (($i = 0); $i -lt $sourceColors.Length; $i++)
     $sortedNodes = $targetColorNode.Node.ChildNodes | Sort-Object Name
     if ($sortedNodes.Count -gt 1)
     {
+      Write-Host "sorting $($targetColorNode.Node.Name)"
       foreach ($sortedChild in $sortedNodes)
       {
+        Write-Host "$($sortedChild.Name)"
         $targetColorNode.Node.RemoveChild($sortedChild)
         $targetColorNode.Node.AppendChild($sortedChild)
       }

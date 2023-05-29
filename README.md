@@ -53,6 +53,7 @@
 ## 💝 Thanks to
 
 - [djflan](https://github.com/djflan)
+- [eberthold](https://github.com/eberthold)
 
 &nbsp;
 
