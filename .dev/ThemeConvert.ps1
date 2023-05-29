@@ -70,12 +70,12 @@ $targetXml.Load($targetPath)
 for (($i = 0); $i -lt $sourceColors.Length; $i++)
 {
   $sourceColor = $sourceColors[$i].ToUpper()
-  $targetColor = $targetColors[$i].ToUpper()
   $items = Select-Xml -Xml $sourceXml -XPath "//*[contains(@Source, `"$sourceColor`")]"
   $count = $item.Length
   Write-Host "found $count items for $sourceColor"
   foreach ($item in $items)
   {
+    $targetColor = $targetColors[$i].ToUpper()
     $categoryNode = $item.Node.ParentNode.ParentNode
     $categoryName = $categoryNode.Name
     $categoryGuid = $categoryNode.GUID
@@ -105,6 +105,8 @@ for (($i = 0); $i -lt $sourceColors.Length; $i++)
 
     $nodeType = $item.Node.Name
     $targetNodeToModify = Select-Xml -Xml $targetColorNode.Node -XPath "$nodeType"
+    $targetOpacity = $item.Node.GetAttribute("Source").Substring(0, 2)
+    $targetTypeAttributeValue = $item.Node.GetAttribute("Type")
     if ($targetNodeToModify -eq $null)
     {
       Write-Host "adding $nodeType node"
@@ -115,26 +117,17 @@ for (($i = 0); $i -lt $sourceColors.Length; $i++)
 
     if ($targetColor.Length -eq 6)
     {
-      $targetColor = "FF$targetColor"
+      $targetColor = "$targetOpacity$targetColor"
     }
 
-    if ($targetColor -eq "00000000")
-    {
-      $targetNodeToModify.Node.SetAttribute("Type", "CT_INVALID")
-    } else
-    {
-      $targetNodeToModify.Node.SetAttribute("Type", "CT_RAW")
-    }
-
+    $targetNodeToModify.Node.SetAttribute("Type", $targetTypeAttributeValue)
     $targetColorAttribute = $targetNodeToModify.Node.SetAttribute("Source", "$targetColor")
 
     $sortedNodes = $targetColorNode.Node.ChildNodes | Sort-Object Name
     if ($sortedNodes.Count -gt 1)
     {
-      Write-Host "sorting $($targetColorNode.Node.Name)"
       foreach ($sortedChild in $sortedNodes)
       {
-        Write-Host "$($sortedChild.Name)"
         $targetColorNode.Node.RemoveChild($sortedChild)
         $targetColorNode.Node.AppendChild($sortedChild)
       }
