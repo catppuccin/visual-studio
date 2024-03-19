@@ -4114,10 +4114,10 @@
         <Foreground Type="CT_RAW" Source="FFCDD6F4" />
       </Color>
       <Color Name="ErrorBorder">
-        <Background Type="CT_RAW" Source="3311111B" />
+        <Background Type="CT_RAW" Source="F38BA8FF" />
       </Color>
       <Color Name="AlertBorder">
-        <Background Type="CT_RAW" Source="3311111B" />
+        <Background Type="CT_RAW" Source="F38BA8FF" />
       </Color>
       <Color Name="DropDownMenuMouseDown">
         <Background Type="CT_RAW" Source="FF45475A" />
@@ -7805,7 +7805,7 @@
         <Background Type="CT_RAW" Source="2689B4FA" />
       </Color>
       <Color Name="PopupControlMouseDownBorder">
-        <Background Type="CT_RAW" Source="3311111B" />
+        <Background Type="CT_RAW" Source="F38BA8FF" />
       </Color>
       <Color Name="PopupControlMouseOverBackgroundGradientBegin">
         <Background Type="CT_RAW" Source="FF1E1E2E" />
