@@ -1055,7 +1055,7 @@
       </Color>
       <Color Name="Button">
         <Background Type="CT_RAW" Source="FF8839EF" />
-        <Foreground Type="CT_RAW" Source="FFDCE0E8" />
+        <Foreground Type="CT_RAW" Source="FF7287fd" />
       </Color>
       <Color Name="ButtonDefault">
         <Background Type="CT_RAW" Source="FF8839EF" />
