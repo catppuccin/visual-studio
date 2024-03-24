@@ -4114,10 +4114,10 @@
         <Foreground Type="CT_RAW" Source="FFCDD6F4" />
       </Color>
       <Color Name="ErrorBorder">
-        <Background Type="CT_RAW" Source="3311111B" />
+        <Background Type="CT_RAW" Source="FFF38BA8" />
       </Color>
       <Color Name="AlertBorder">
-        <Background Type="CT_RAW" Source="3311111B" />
+        <Background Type="CT_RAW" Source="FFF38BA8" />
       </Color>
       <Color Name="DropDownMenuMouseDown">
         <Background Type="CT_RAW" Source="FF45475A" />
