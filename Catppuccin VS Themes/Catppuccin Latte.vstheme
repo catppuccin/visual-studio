@@ -1055,7 +1055,7 @@
       </Color>
       <Color Name="Button">
         <Background Type="CT_RAW" Source="FF8839EF" />
-        <Foreground Type="CT_RAW" Source="FF7287fd" />
+        <Foreground Type="CT_RAW" Source="FFDCE0E8" />
       </Color>
       <Color Name="ButtonDefault">
         <Background Type="CT_RAW" Source="FF8839EF" />
@@ -4625,8 +4625,8 @@
         <Foreground Type="CT_RAW" Source="FF4C4F69" />
       </Color>
       <Color Name="ButtonDisabled">
-        <Background Type="CT_RAW" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFA2A4A5" />
+        <Background Type="CT_RAW" Source="FFACB0BE" />
+        <Foreground Type="CT_RAW" Source="FF4C4F69" />
       </Color>
       <Color Name="ButtonDisabledBorder">
         <Background Type="CT_RAW" Source="FFCCCEDB" />
@@ -8051,8 +8051,8 @@
         <Background Type="CT_RAW" Source="FF3399FF" />
       </Color>
       <Color Name="ButtonDisabled">
-        <Background Type="CT_RAW" Source="FFF5F5F5" />
-        <Foreground Type="CT_RAW" Source="FFA2A4A5" />
+        <Background Type="CT_RAW" Source="FFACB0BE" />
+        <Foreground Type="CT_RAW" Source="FF4C4F69" />
       </Color>
       <Color Name="ButtonBorderDisabled">
         <Background Type="CT_RAW" Source="FFCCCEDB" />
@@ -8404,7 +8404,7 @@
       </Color>
       <Color Name="ButtonDisabled">
         <Background Type="CT_RAW" Source="FFACB0BE" />
-        <Foreground Type="CT_RAW" Source="FFADB0BD" />
+        <Foreground Type="CT_RAW" Source="FF4C4F69" />
       </Color>
       <Color Name="CallToActionButtonDisabled">
         <Background Type="CT_RAW" Source="FFACB0BE" />
