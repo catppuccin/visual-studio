@@ -1054,20 +1054,21 @@
         <Background Type="CT_RAW" Source="FFCDD6F4" />
       </Color>
       <Color Name="Button">
-        <Background Type="CT_RAW" Source="FFCBA6F7" />
-        <Foreground Type="CT_RAW" Source="FFb4befe" />
+        <Background Type="CT_RAW" Source="FF11111B" />
+        <!-- active non-hover state button text -->
+        <Foreground Type="CT_RAW" Source="FFCBA6F7" />
       </Color>
       <Color Name="ButtonDefault">
-        <Background Type="CT_RAW" Source="FFCBA6F7" />
-        <Foreground Type="CT_RAW" Source="FF11111B" />
+        <Background Type="CT_RAW" Source="FF11111B" />
+        <Foreground Type="CT_RAW" Source="FFCBA6F7" />
       </Color>
       <Color Name="ButtonFocused">
-        <Background Type="CT_RAW" Source="FFCBA6F7" />
-        <Foreground Type="CT_RAW" Source="FF11111B" />
+        <Background Type="CT_RAW" Source="FF11111B" />
+        <Foreground Type="CT_RAW" Source="FFCBA6F7" />
       </Color>
       <Color Name="ButtonPressed">
-        <Background Type="CT_RAW" Source="FFCBA6F7" />
-        <Foreground Type="CT_RAW" Source="FF11111B" />
+        <Background Type="CT_RAW" Source="FF11111B" />
+        <Foreground Type="CT_RAW" Source="FFCBA6F7" />
       </Color>
       <Color Name="ButtonBorderDefault">
         <Background Type="CT_RAW" Source="00000000" />
