@@ -5273,7 +5273,7 @@
       </Color>
       <Color Name="local name">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFCAD3F5" />
+        <Foreground Type="CT_RAW" Source="FFB7BDF8" />
       </Color>
       <Color Name="xml doc comment - delimiter">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -10966,7 +10966,7 @@
       </Color>
       <Color Name="local name">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFCAD3F5" />
+        <Foreground Type="CT_RAW" Source="FFB7BDF8" />
       </Color>
       <Color Name="xml doc comment - delimiter">
         <Background Type="CT_INVALID" Source="00000000" />
