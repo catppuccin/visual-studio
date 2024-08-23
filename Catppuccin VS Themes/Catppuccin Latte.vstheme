@@ -5595,10 +5595,6 @@
         <Background Type="CT_RAW" Source="FFEFF1F5" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
-      <!--
-      I don't know how to adjust the hardcoded (?) 0.25 opacity to the overlay rectangle.
-      A possible workaround is adjusting the color to compensate for the opacity, but then the border color will be affected.
-      -->
       <Color Name="StickyScrollLineHighlightFormat">
         <Background Type="CT_RAW" Source="FFCCD0DA" />
         <Foreground Type="CT_INVALID" Source="00000000" />
