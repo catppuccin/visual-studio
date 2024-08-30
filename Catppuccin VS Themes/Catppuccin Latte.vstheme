@@ -988,6 +988,37 @@
         <Background Type="CT_RAW" Source="FF939393" />
       </Color>
     </Category>
+    <Category Name="EditorOverride" GUID="{656339d7-0e39-43e2-98aa-becc3f87ffa5}">
+      <Color Name="PopupBackground">
+        <!-- <Color Name="Popup"> -->
+        <Background Type="CT_RAW" Source="FFEFF1F5" />
+        <Foreground Type="CT_RAW" Source="FF4C4F69" />
+      </Color>
+      <Color Name="PopupText">
+        <!-- ComboBoxText / Foreground -->
+        <Background Type="CT_RAW" Source="FF4C4F69" />
+      </Color>
+      <Color Name="PopupBorder">
+        <!-- ToolTipBorder -->
+        <Background Type="CT_RAW" Source="FFACB0BE" />
+      </Color>
+      <Color Name="PopupSelectedBackground">
+        <!-- ListItemBackgroundSelected -->
+        <Background Type="CT_RAW" Source="FFBCC0CC" />
+      </Color>
+      <Color Name="PopupSelectedText">
+        <!-- WindowText -->
+        <Background Type="CT_RAW" Source="FF4C4F69" />
+      </Color>
+	  <Color Name="PopupLink">
+	  <!-- PanelHyperlinkInsideSelectionActive -->
+        <Background Type="CT_RAW" Source="FF4C4F69" />
+	  </Color>
+	  <Color Name="PopupSubtleText">
+	  <!-- PanelHyperlinkInsideSelection -->
+        <Background Type="CT_RAW" Source="FF4C4F69" />
+	  </Color>
+    </Category>
     <Category Name="Command Window" GUID="{ee1be240-4e81-4beb-8eea-54322b6b1bf5}">
       <Color Name="Plain Text">
         <Background Type="CT_RAW" Source="FF19171C" />
@@ -10212,6 +10243,160 @@
       </Color>
     </Category>
     <Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">
+      <Color Name="SolidBackgroundFillTertiary">
+        <!-- Explorer header and active tabs -->
+        <!-- EnvironmentBackground -->
+        <Background Type="CT_RAW" Source="FFDCE0E8" />
+      </Color>
+      <!-- new color text (They renamed it) -->
+      <Color Name="TextFillPrimary">
+        <!-- WindowText -->
+        <Background Type="CT_RAW" Source="FF4C4F69" />
+      </Color>
+      <Color Name="TextFillSecondary">
+        <!-- FileTabInactiveText -->
+        <!-- Example: An inactive tab -->
+        <Background Type="CT_RAW" Source="FF9CA0B0" />
+      </Color>
+      <Color Name="TextFillTertiary">
+        <!-- Unfocused window visual studio logo color -->
+        <!-- Active FF865FC5, Inactive 66000000 -->
+        <Background Type="CT_RAW" Source="66000000" />
+      </Color>
+      <Color Name="TextFillDisabled">
+        <!-- unmodified -->
+        <Background Type="CT_RAW" Source="5C000000" />
+      </Color>
+      <Color Name="TextFillInverse">
+        <!-- unmodified -->
+        <Background Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="AccentFillDefault">
+        <!-- focused window color, and tab. EDITOR -->
+        <!-- ControlStrokeDefault -->
+        <Background Type="CT_RAW" Source="FF8839EF" />
+      </Color>
+      <Color Name="SubtleFillSecondary">
+        <!-- The hover color -->
+        <!-- Aparently this also controls the editor tab hover color -->
+        <!-- should be FF45475A -->
+        <!-- ToggleSelected -->
+        <Background Type="CT_RAW" Source="FFBCC0CC" />
+      </Color>
+      <Color Name="CardStrokeDefaultSolidAlt">
+        <!-- The unfocused window color -->
+        <!-- CommandMouseOver -->
+        <Background Type="CT_RAW" Source="FFACB0BE" />
+      </Color>
+      <Color Name="AccentTextFillDisabled">
+        <!-- unmodified -->
+        <Background Type="CT_RAW" Source="5C000000" />
+      </Color>
+      <Color Name="TextOnAccentFillSelectedText">
+        <!-- unmodified -->
+        <Background Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="TextOnAccentFillPrimary">
+        <!-- unmodified -->
+        <Background Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="TextOnAccentFillSecondary">
+        <!-- unmodified -->
+        <Background Type="CT_RAW" Source="B3FFFFFF" />
+      </Color>
+      <Color Name="TextOnAccentFillDisabled">
+        <!-- unmodified -->
+        <Background Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="ControlFillDefault">
+        <!-- Background of the comboboxes and explorer search bar -->
+        <!-- ComboBox -->
+        <Background Type="CT_RAW" Source="FFE6E9EF" />
+      </Color>
+      <Color Name="ControlFillSecondary">
+        <!-- Search bar from explorer, should be text box background?? (from the normal one) -->
+        <!-- Input -->
+        <Background Type="CT_RAW" Source="FFCCD0DA" />
+      </Color>
+      <Color Name="ControlFillActiveInput">
+        <!-- Search bar background when focused -->
+        <!-- Input -->
+        <Background Type="CT_RAW" Source="FFCCD0DA" />
+      </Color>
+      <Color Name="ControlStrokeDefault">
+        <!-- Combobox and Inputs Border color -->
+        <!-- Command -->
+        <Background Type="CT_RAW" Source="FF8839EF" />
+      </Color>
+      <Color Name="SolidBackgroundFillBase">
+        <!-- unmodified -->
+        <Background Type="CT_RAW" Source="FFF3F3F3" />
+      </Color>
+      <Color Name="SolidBackgroundFillSecondary">
+        <!-- unmodified -->
+        <Background Type="CT_RAW" Source="FFEEEEEE" />
+      </Color>
+      <Color Name="SolidBackgroundFillSenary">
+        <!-- Inactive Tab color? Unfocused Tab color -->
+        <!-- MainWindowInactiveCaption -->
+        <Background Type="CT_RAW" Source="FFDCE0E8" />
+      </Color>
+      <Color Name="SolidBackgroundFillQuarternary">
+        <!-- unmodified -->
+        <Background Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="SolidBackgroundFillTransparent">
+        <!-- unmodified -->
+        <Background Type="CT_RAW" Source="00F3F3F3" />
+      </Color>
+      <Color Name="SolidBackgroundFillBaseAlt">
+        <!-- unmodified -->
+        <Background Type="CT_RAW" Source="FFDADADA" />
+      </Color>
+      <Color Name="SystemFillAttention">
+        <!-- Border active, decompiled or inspecting file (editor) -->
+        <!-- AccentFillDefault -->
+        <Background Type="CT_RAW" Source="FF8839EF" />
+      </Color>
+      <!-- end of new color -->
+	  <!-- start of renaming the sequel -->
+      <Color Name="SystemFillSuccess">
+        <Background Type="CT_RAW" Source="FF0F7B0F" />
+      </Color>
+      <Color Name="SystemFillCaution">
+        <Background Type="CT_RAW" Source="FF9D5D00" />
+      </Color>
+      <Color Name="SystemFillCritical">
+        <Background Type="CT_RAW" Source="FFC42B1C" />
+      </Color>
+      <Color Name="SystemFillNeutral">
+        <Background Type="CT_RAW" Source="72000000" />
+      </Color>
+      <Color Name="SystemFillSolidNeutral">
+        <Background Type="CT_RAW" Source="FF8A8A8A" />
+      </Color>
+      <Color Name="SystemFillAttentionBackground">
+        <Background Type="CT_RAW" Source="80F6F6F6" />
+      </Color>
+      <Color Name="SystemFillSuccessBackground">
+        <Background Type="CT_RAW" Source="FFDFF6DD" />
+      </Color>
+      <Color Name="SystemFillCautionBackground">
+        <Background Type="CT_RAW" Source="FFFFF4CE" />
+      </Color>
+      <Color Name="SystemFillCriticalBackground">
+        <Background Type="CT_RAW" Source="FFFDE7E9" />
+      </Color>
+      <Color Name="SystemFillNeutralBackground">
+        <Background Type="CT_RAW" Source="06000000" />
+      </Color>
+      <Color Name="SystemFillSolidAttentionBackground">
+        <Background Type="CT_RAW" Source="FFF7F7F7" />
+      </Color>
+      <Color Name="SystemFillSolidNeutralBackground">
+        <Background Type="CT_RAW" Source="FFF3F3F3" />
+      </Color>
+      <!-- end of renaming the sequel -->
       <Color Name="TextFillColorPrimary">
         <Background Type="CT_RAW" Source="E4000000" />
       </Color>
@@ -10448,6 +10633,79 @@
       </Color>
       <Color Name="SystemFillColorSolidNeutralBackground">
         <Background Type="CT_RAW" Source="FFF3F3F3" />
+      </Color>
+    </Category>
+    <!-- new env -->
+    <Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
+      <Color Name="EnvironmentBackground">
+        <!-- This is the background color -->
+        <!-- EnvironmentBackground -->
+        <Background Type="CT_RAW" Source="FFDCE0E8" />
+      </Color>
+      <Color Name="EnvironmentLayeredBackground">
+        <!-- Actually, is the top bar bg color and inactive bg of the editor tabs -->
+        <!-- EnvironmentBackground -->
+        <Background Type="CT_RAW" Source="FFDCE0E8" />
+      </Color>
+      <Color Name="EnvironmentBorder">
+        <!-- Window border color -->
+        <!-- MainWindowActiveDefaultBorder -->
+        <Background Type="CT_RAW" Source="FF9B9FB9" />
+      </Color>
+      <Color Name="EnvironmentBorderInactive">
+        <!-- ControlFillSecondary -->
+        <Background Type="CT_RAW" Source="FFCCD0DA" />
+      </Color>
+      <Color Name="EnvironmentLayeredBorder">
+        <!-- ControlFillSecondary -->
+        <Background Type="CT_RAW" Source="FFCCD0DA" />
+      </Color>
+      <!-- THe experimental or preview badge color, InformationBadge  -->
+      <Color Name="EnvironmentBadge">
+        <!-- The badge of the PREVIEW or EXP thing -->
+        <!-- ButtonFace -->
+        <Background Type="CT_RAW" Source="FFBCC0CC" />
+      </Color>
+      <Color Name="EnvironmentLogo">
+        <!-- Focused window visual studio logo color -->
+        <!-- Active FF865FC5, Inactive 66000000 -->
+        <!-- MainWindowActiveIconDefault, MainWindowInactiveIconDefault -->
+        <Background Type="CT_RAW" Source="FF865FC5" />
+      </Color>
+      <!-- StatusBarBuilding... -->
+      <Color Name="StatusBarControlFill">
+        <Background Type="CT_RAW" Source="FF4C4F69" />
+      </Color>
+      <Color Name="StatusBarFillBuildingBackground">
+        <Background Type="CT_RAW" Source="FFDCE0E8" />
+        <Foreground Type="CT_RAW" Source="FF4C4F69" />
+      </Color>
+      <Color Name="StatusBarFillBuildingText">
+        <Background Type="CT_RAW" Source="FF4C4F69" />
+      </Color>
+      <Color Name="StatusBarFillDebuggingBackground">
+        <Background Type="CT_RAW" Source="FFFE640B" />
+        <Foreground Type="CT_RAW" Source="FFDCE0E8" />
+      </Color>
+      <Color Name="StatusBarFillDebuggingText">
+        <Background Type="CT_RAW" Source="FF4C4F69" />
+      </Color>
+      <Color Name="StatusBarFillNoSolutionBackground">
+        <Background Type="CT_RAW" Source="FFDCE0E8" />
+        <Foreground Type="CT_RAW" Source="FF4C4F69" />
+      </Color>
+      <Color Name="StatusBarFillNoSolutionText">
+        <Background Type="CT_RAW" Source="FF4C4F69" />
+      </Color>
+      <Color Name="StatusBarFillRestBackground">
+        <Background Type="CT_RAW" Source="FFDCE0E8" />
+        <Foreground Type="CT_RAW" Source="FF4C4F69" />
+      </Color>
+      <Color Name="StatusBarFillRestText">
+        <Background Type="CT_RAW" Source="FF4C4F69" />
+      </Color>
+      <Color Name="StatusBarTextFillDisabled">
+        <Background Type="CT_RAW" Source="FF4C4F69" />
       </Color>
     </Category>
     <Category Name="ThemedAcceleratedDialog" GUID="{a2859846-e4aa-452d-ac41-8cc0e4e72e4c}">
