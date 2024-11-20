@@ -5159,6 +5159,15 @@
       </Color>
     </Category>
     <Category Name="Cpp Text Editor MEF Items" GUID="{75a05685-00a8-4ded-bae5-e7a50bfa929a}">
+      <Color Name="outlining.chevron.expanded">
+        <Background Type="CT_RAW" Source="FFEFF1F5" />
+        <Foreground Type="CT_RAW" Source="FF8839ef" />
+      </Color>
+      <Color Name="outlining.chevron.collapsed">
+        <Background Type="CT_RAW" Source="FFEFF1F5" />
+        <Foreground Type="CT_RAW" Source="FF8839ef" />
+      </Color>
+      
       <Color Name="Rainbow Brace level 1">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_RAW" Source="FF8839ef" />
