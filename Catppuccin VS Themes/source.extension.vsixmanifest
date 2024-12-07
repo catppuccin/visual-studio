@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="Catppuccin_for_Visual_Studio.cf093970-131b-4883-8405-0577339048c3" Version="1.6.1" Language="en-US" Publisher="Catppuccin" />
+        <Identity Id="Catppuccin_for_Visual_Studio.cf093970-131b-4883-8405-0577339048c3" Version="1.6.2" Language="en-US" Publisher="Catppuccin" />
         <DisplayName>Catppuccin for Visual Studio</DisplayName>
         <Description xml:space="preserve">Catppuccin Themes for Visual Studio</Description>
         <MoreInfo>https://github.com/djflan/Catppuccin-Visual-Studio-Themes</MoreInfo>
