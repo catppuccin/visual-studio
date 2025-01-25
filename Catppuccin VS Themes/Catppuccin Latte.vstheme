@@ -11786,51 +11786,6 @@
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
-      <Color Name="CppMacroSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppEnumSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppGlobalVariableSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppLocalVariableSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppParameterSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppTypeSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppRefTypeSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppValueTypeSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppFunctionSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppMemberFunctionSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppMemberFieldSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppStaticMemberFunctionSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppStaticMemberFieldSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppPropertySemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppEventSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
       <Color Name="Dynamic Program Analysis Highlighter (Issue frame)">
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
