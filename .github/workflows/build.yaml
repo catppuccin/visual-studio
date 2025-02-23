@@ -1,0 +1,23 @@
+name: Build extension
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: nuget/setup-nuget@v2
+      - uses: microsoft/setup-msbuild@v2
+      - name: Sync NuGet packages
+        run: nuget restore 'Catppuccin VS Themes'
+      - name: Build
+        run: msbuild /p:configuration=Release /p:DeployExtension=false /p:ZipPackageCompressionLevel=normal 'Catppuccin VS Themes'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Catppuccin for Visual Studio.vsix
+          path: Catppuccin VS Themes\bin\Release\Catppuccin for Visual Studio.vsix
