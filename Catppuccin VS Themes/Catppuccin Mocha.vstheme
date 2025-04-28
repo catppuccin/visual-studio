@@ -5167,7 +5167,7 @@
       <Color Name="outlining.chevron.collapsed">
         <Background Type="CT_RAW" Source="FF1E1E2E" />
         <Foreground Type="CT_RAW" Source="FFCBA6F7" />
-      </Color>      
+      </Color>
       <Color Name="property name">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_RAW" Source="FF89B4FA" />
@@ -8950,7 +8950,7 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="Indicator Margin">
-        <Background Type="CT_RAW" Source="FF1E1E2E" />
+        <Background Type="CT_RAW" Source="FF313244" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
     </Category>
