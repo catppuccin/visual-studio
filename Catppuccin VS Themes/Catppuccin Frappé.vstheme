@@ -8801,7 +8801,7 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="Indicator Margin">
-        <Background Type="CT_RAW" Source="FF303446" />
+        <Background Type="CT_RAW" Source="FF414559" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
     </Category>
