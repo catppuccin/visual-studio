@@ -33,7 +33,12 @@ jobs:
         run: nuget restore 'Catppuccin VS Themes'
       - name: Build
         run: msbuild /p:configuration=Release /p:DeployExtension=false /p:ZipPackageCompressionLevel=normal 'Catppuccin VS Themes'
-      - name: Upload Artifact
+      - name: Upload Artifact to GitHub Release
         env:
             GH_TOKEN: ${{ github.token }}
         run: gh release upload ${{ needs.release-please.outputs.tag_name }} "Catppuccin VS Themes\bin\Release\Catppuccin for Visual Studio.vsix"
+      - name: Publish to Visual Studio Marketplace
+        env:
+          VS_MARKETPLACE_TOKEN: ${{ secrets.VS_MARKETPLACE_TOKEN }}
+        run: |
+          VsixPublisher.exe publish -payload "Catppuccin VS Themes\bin\Release\Catppuccin for Visual Studio.vsix" -publishManifest "Catppuccin VS Themes\marketplace.json" -personalAccessToken "$env:VS_MARKETPLACE_TOKEN"

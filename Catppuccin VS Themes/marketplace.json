@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/vsix-publish",
+  "categories": [ "coding" ],
+  "identity": {
+    "internalName": "Catppuccin_for_Visual_Studio"
+  },
+  "overview": "README.md",
+  "priceCategory": "free",
+  "publisher": "Catppuccin",
+  "private": false,
+  "public": true,
+  "qna": true,
+  "repo": "https://github.com/djflan/Catppuccin-Visual-Studio-Themes"
+}
