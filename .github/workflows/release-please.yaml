@@ -38,7 +38,15 @@ jobs:
             GH_TOKEN: ${{ github.token }}
         run: gh release upload ${{ needs.release-please.outputs.tag_name }} "Catppuccin VS Themes\bin\Release\Catppuccin for Visual Studio.vsix"
       - name: Publish to Visual Studio Marketplace
+        shell: pwsh
         env:
           VS_MARKETPLACE_TOKEN: ${{ secrets.VS_MARKETPLACE_TOKEN }}
         run: |
-          VsixPublisher.exe publish -payload "Catppuccin VS Themes\bin\Release\Catppuccin for Visual Studio.vsix" -publishManifest "Catppuccin VS Themes\marketplace.json" -personalAccessToken "$env:VS_MARKETPLACE_TOKEN"
+          $vsix = "Catppuccin VS Themes\bin\Release\Catppuccin for Visual Studio.vsix"
+          $manifest = "Catppuccin VS Themes\marketplace.json"
+
+          $vs = & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -products * -requires Microsoft.VisualStudio.Component.VSSDK -property installationPath
+          $vsixPublisher = Join-Path $vs "VSSDK\VisualStudioIntegration\Tools\Bin\VsixPublisher.exe"
+
+          & $vsixPublisher login -publisherName Catppuccin -personalAccessToken $env:VS_MARKETPLACE_TOKEN
+          & $vsixPublisher publish -payload $vsix -publishManifest $manifest -personalAccessToken $env:VS_MARKETPLACE_TOKEN
