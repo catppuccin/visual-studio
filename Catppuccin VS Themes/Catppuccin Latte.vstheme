@@ -6438,127 +6438,127 @@
       </Color>
       <Color Name="CppMacroSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF8A1BFF" />
+        <Foreground Type="CT_RAW" Source="FFFE640B" />
       </Color>
       <Color Name="CppEnumSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF2F4F4F" />
+        <Foreground Type="CT_RAW" Source="FFFE640B" />
       </Color>
       <Color Name="CppGlobalVariableSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF000000" />
+        <Foreground Type="CT_RAW" Source="FF4C4F69" />
       </Color>
       <Color Name="CppLocalVariableSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF1F377F" />
+        <Foreground Type="CT_RAW" Source="FF5C5F77" />
       </Color>
       <Color Name="CppParameterSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF808080" />
+        <Foreground Type="CT_RAW" Source="FFE64553" />
       </Color>
       <Color Name="CppTypeSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF2B91AF" />
+        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
       </Color>
       <Color Name="CppRefTypeSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF2B91AF" />
+        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
       </Color>
       <Color Name="CppValueTypeSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF2B91AF" />
+        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
       </Color>
       <Color Name="CppFunctionSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF74531F" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="CppMemberFunctionSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF74531F" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="CppMemberFieldSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF000000" />
+        <Foreground Type="CT_RAW" Source="FF209FB5" />
       </Color>
       <Color Name="CppStaticMemberFunctionSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF74531F" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="CppStaticMemberFieldSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF000000" />
+        <Foreground Type="CT_RAW" Source="FF179299" />
       </Color>
       <Color Name="CppPropertySemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF000000" />
+        <Foreground Type="CT_RAW" Source="FF179299" />
       </Color>
       <Color Name="CppEventSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF000000" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="CppClassTemplateSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF2B91AF" />
+        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
       </Color>
       <Color Name="CppGenericTypeSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF2B91AF" />
+        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
       </Color>
       <Color Name="CppFunctionTemplateSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF74531F" />
+        <Foreground Type="CT_RAW" Source="FF1E66F5" />
       </Color>
       <Color Name="CppNamespaceSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF000000" />
+        <Foreground Type="CT_RAW" Source="FFEA76CB" />
       </Color>
       <Color Name="CppLabelSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF000000" />
+        <Foreground Type="CT_RAW" Source="FF40A02B" />
       </Color>
       <Color Name="CppUDLRawSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF000000" />
+        <Foreground Type="CT_RAW" Source="FF4C4F69" />
       </Color>
       <Color Name="CppUDLNumberSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF000000" />
+        <Foreground Type="CT_RAW" Source="FF179299" />
       </Color>
       <Color Name="CppUDLStringSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFA31515" />
+        <Foreground Type="CT_RAW" Source="FFDD7878" />
       </Color>
       <Color Name="CppOperatorSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF008080" />
+        <Foreground Type="CT_RAW" Source="FF179299" />
       </Color>
       <Color Name="CppMemberOperatorSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF008080" />
+        <Foreground Type="CT_RAW" Source="FF179299" />
       </Color>
       <Color Name="CppNewDeleteSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF0000FF" />
+        <Foreground Type="CT_RAW" Source="FF8839EF" />
       </Color>
       <Color Name="CppSuggestedActionFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF278B27" />
+        <Foreground Type="CT_RAW" Source="FFEFF1F5" />
       </Color>
       <Color Name="CppControlKeywordSyntacticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF8F08C4" />
+        <Foreground Type="CT_RAW" Source="FF8839EF" />
       </Color>
       <Color Name="CppStringEscapeCharacterSyntacticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFB776FB" />
+        <Foreground Type="CT_RAW" Source="FFDF8E1D" />
       </Color>
       <Color Name="CppStringDelimiterCharacterSyntacticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFE21F1F" />
+        <Foreground Type="CT_RAW" Source="FFA6E3A1" />
       </Color>
       <Color Name="CppInlineHintsFormat">
         <Background Type="CT_RAW" Source="FFE6E6E6" />
-        <Foreground Type="CT_RAW" Source="FF686868" />
+        <Foreground Type="CT_RAW" Source="FF8839EF" />
       </Color>
       <Color Name="ReSharper Current Line Highlight">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -11785,96 +11785,6 @@
       <Color Name="API Usage Examples Highlight">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppMacroSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppEnumSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppGlobalVariableSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppLocalVariableSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppParameterSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppTypeSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppRefTypeSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppValueTypeSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppFunctionSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppMemberFunctionSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppMemberFieldSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppStaticMemberFunctionSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppStaticMemberFieldSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppPropertySemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppEventSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppClassTemplateSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppGenericTypeSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppFunctionTemplateSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppNamespaceSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppLabelSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppUDLRawSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppUDLNumberSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppUDLStringSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppOperatorSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppMemberOperatorSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppNewDeleteSemanticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppSuggestedActionFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppControlKeywordSyntacticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppStringEscapeCharacterSyntacticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="CppStringDelimiterCharacterSyntacticTokenFormat">
-        <Background Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="Dynamic Program Analysis Highlighter (Issue frame)">
         <Foreground Type="CT_INVALID" Source="00000000" />
