@@ -40,6 +40,6 @@ jobs:
       - name: Publish to Visual Studio Marketplace
         uses: cezarypiatek/VsixPublisherAction@1.1
         with:
-          extension-file: "Catppuccin VS Themes/bin/Release/Catppuccin for Visual Studio.vsix" 
-          publish-manifest-file: "Catppuccin VS Themes/marketplace.json"
+          extension-file: '"Catppuccin VS Themes/bin/Release/Catppuccin for Visual Studio.vsix"'
+          publish-manifest-file: '"Catppuccin VS Themes/marketplace.json"'
           personal-access-code: ${{ secrets.VS_MARKETPLACE_TOKEN }}
