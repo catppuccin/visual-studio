@@ -4,7 +4,7 @@
   "identity": {
     "internalName": "Catppuccin_for_Visual_Studio"
   },
-  "overview": "README.md",
+  "overview": "overview.md",
   "priceCategory": "free",
   "publisher": "Catppuccin",
   "private": false,
