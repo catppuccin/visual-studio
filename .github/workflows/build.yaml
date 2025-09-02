@@ -19,5 +19,5 @@ jobs:
         run: msbuild /p:configuration=Release /p:DeployExtension=false /p:ZipPackageCompressionLevel=normal 'Catppuccin VS Themes'
       - uses: actions/upload-artifact@v4
         with:
-          name: Catppuccin for Visual Studio.vsix
-          path: Catppuccin VS Themes\bin\Release\Catppuccin for Visual Studio.vsix
+          name: Catppuccin.for.Visual.Studio.vsix
+          path: Catppuccin VS Themes\bin\Release\Catppuccin.for.Visual.Studio.vsix
