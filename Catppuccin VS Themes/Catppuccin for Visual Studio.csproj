@@ -15,6 +15,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Catppuccin</RootNamespace>
     <AssemblyName>Catppuccin for Visual Studio</AssemblyName>
+    <TargetVsixContainerName>Catppuccin.for.Visual.Studio.vsix</TargetVsixContainerName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
     <UseCodebase>true</UseCodebase>
