@@ -11331,16 +11331,82 @@
       </Color>
     </Category>
 
-    <!-- Visual Studio 2026 -->
+    <!-- Visual Studio 2026 (Fluent UI): https://learn.microsoft.com/visualstudio/extensibility/ux-guidelines/theme-color-token-reference -->
     <Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">
       <Color Name="AccentFillDefault">
-        <Background Type="CT_RAW" Source="FF7287FD" /> <!-- Lavender -->
+        <Background Type="CT_RAW" Source="FFCBA6F7" /> <!-- Mauve -->
       </Color>
       <Color Name="AccentFillSecondary">
-        <Background Type="CT_RAW" Source="FF7F8BCF" /> <!-- Lavender (Slightly Darkened) -->
+        <Background Type="CT_RAW" Source="E6CBA6F7" /> <!-- Mauve 90% -->
       </Color>
       <Color Name="AccentFillTertiary">
-        <Background Type="CT_RAW" Source="CC9184EE" /> <!-- Not Cat -->
+        <Background Type="CT_RAW" Source="CCCBA6F7" /> <!-- Mauve 80% -->
+      </Color>
+      <Color Name="AccentFillSenary">
+        <Background Type="CT_RAW" Source="1FCBA6F7" /> <!-- Mauve 12% -->
+      </Color>
+      <Color Name="AccentFillAlt">
+        <Background Type="CT_RAW" Source="FFB4BEFE" /> <!-- Lavender -->
+      </Color>
+      <Color Name="AccentFillSelectedTextBackground">
+        <Background Type="CT_RAW" Source="4D9399B2" /> <!-- Overlay2 30% -->
+      </Color>
+      <Color Name="AccentFillSelectedTextBackgroundSubtle">
+        <Background Type="CT_RAW" Source="339399B2" /> <!-- Overlay2 20% -->
+      </Color>
+      <Color Name="AccentTextFillPrimary">
+        <Background Type="CT_RAW" Source="FFCBA6F7" /> <!-- Mauve -->
+      </Color>
+      <Color Name="AccentTextFillSecondary">
+        <Background Type="CT_RAW" Source="E6CBA6F7" /> <!-- Mauve 90% -->
+      </Color>
+      <Color Name="AccentTextFillTertiary">
+        <Background Type="CT_RAW" Source="CCCBA6F7" /> <!-- Mauve 80% -->
+      </Color>
+      <Color Name="CardStrokeDefaultSolid">
+        <Background Type="CT_RAW" Source="FF11111B" /> <!-- Crust -->
+      </Color>
+      <Color Name="CardStrokeDefaultSolidAlt">
+        <Background Type="CT_RAW" Source="FF11111B" /> <!-- Crust -->
+      </Color>
+      <Color Name="ControlFillActiveInput">
+        <Background Type="CT_RAW" Source="B3181825" /> <!-- Mantle 70% -->
+      </Color>
+      <Color Name="ControlOnImageFillDefault">
+        <Background Type="CT_RAW" Source="B31E1E2E" /> <!-- Base 70% -->
+      </Color>
+      <Color Name="ControlOnImageFillSecondary">
+        <Background Type="CT_RAW" Source="FF181825" /> <!-- Mantle -->
+      </Color>
+      <Color Name="ControlOnImageFillTertiary">
+        <Background Type="CT_RAW" Source="FF11111B" /> <!-- Crust -->
+      </Color>
+      <Color Name="ControlSolidFillDefault">
+        <Background Type="CT_RAW" Source="FF45475A" /> <!-- Surface1 -->
+      </Color>
+      <Color Name="FocusStrokeOuter">
+        <Background Type="CT_RAW" Source="FFB4BEFE" /> <!-- Lavender -->
+      </Color>
+      <Color Name="HyperlinkFillPrimary">
+        <Background Type="CT_RAW" Source="FF89B4FA" /> <!-- Blue -->
+      </Color>
+      <Color Name="HyperlinkFillSecondary">
+        <Background Type="CT_RAW" Source="FF74C7EC" /> <!-- Sapphire -->
+      </Color>
+      <Color Name="HyperlinkFillTertiary">
+        <Background Type="CT_RAW" Source="E674C7EC" /> <!-- Sapphire 90% -->
+      </Color>
+      <Color Name="LayerFillDefault">
+        <Background Type="CT_RAW" Source="4D313244" /> <!-- Surface0 30% -->
+      </Color>
+      <Color Name="SolidBackgroundFillBase">
+        <Background Type="CT_RAW" Source="FF1E1E2E" /> <!-- Base -->
+      </Color>
+      <Color Name="SolidBackgroundFillBaseAlt">
+        <Background Type="CT_RAW" Source="FF11111B" /> <!-- Crust -->
+      </Color>
+      <Color Name="SolidBackgroundFillSecondary">
+        <Background Type="CT_RAW" Source="FF181825" /> <!-- Mantle -->
       </Color>
       <Color Name="SolidBackgroundFillTertiary">
         <Background Type="CT_RAW" Source="FF181825" /> <!-- Mantle -->
@@ -11348,46 +11414,143 @@
       <Color Name="SolidBackgroundFillQuaternary">
         <Background Type="CT_RAW" Source="FF1E1E2E" /> <!-- Base -->
       </Color>
-      <Color Name="SurfaceBackgroundFillDefault">
-        <Background Type="CT_RAW" Source="FF11111B" /> <!-- Crust -->
+      <Color Name="SolidBackgroundFillQuinary">
+        <Background Type="CT_RAW" Source="FF313244" /> <!-- Surface0 -->
       </Color>
-      <Color Name="TextFillSecondary">
-        <Background Type="CT_RAW" Source="FFB4BEFE" /> <!-- Lavender -->
+      <Color Name="SolidBackgroundFillSenary">
+        <Background Type="CT_RAW" Source="FF45475A" /> <!-- Surface1 -->
+      </Color>
+      <Color Name="SurfaceBackgroundFillDefault">
+        <Background Type="CT_RAW" Source="FF1E1E2E" /> <!-- Base -->
+      </Color>
+      <Color Name="SurfaceStrokeDefault">
+        <Background Type="CT_RAW" Source="FF45475A" /> <!-- Surface1 -->
+      </Color>
+      <Color Name="SystemFillAttention">
+        <Background Type="CT_RAW" Source="FF89B4FA" /> <!-- Blue -->
+      </Color>
+      <Color Name="SystemFillCaution">
+        <Background Type="CT_RAW" Source="FFF9E2AF" /> <!-- Yellow -->
+      </Color>
+      <Color Name="SystemFillCautionBackground">
+        <Background Type="CT_RAW" Source="FF4A4548" /> <!-- Yellow 20% over Base -->
+      </Color>
+      <Color Name="SystemFillCritical">
+        <Background Type="CT_RAW" Source="FFF38BA8" /> <!-- Red -->
+      </Color>
+      <Color Name="SystemFillCriticalBackground">
+        <Background Type="CT_RAW" Source="FF493446" /> <!-- Red 20% over Base -->
+      </Color>
+      <Color Name="SystemFillSolidAttentionBackground">
+        <Background Type="CT_RAW" Source="FF313244" /> <!-- Surface0 -->
+      </Color>
+      <Color Name="SystemFillSolidNeutral">
+        <Background Type="CT_RAW" Source="FF6C7086" /> <!-- Overlay0 -->
+      </Color>
+      <Color Name="SystemFillSolidNeutralBackground">
+        <Background Type="CT_RAW" Source="FF313244" /> <!-- Surface0 -->
+      </Color>
+      <Color Name="SystemFillSuccess">
+        <Background Type="CT_RAW" Source="FFA6E3A1" /> <!-- Green -->
+      </Color>
+      <Color Name="SystemFillSuccessBackground">
+        <Background Type="CT_RAW" Source="FF394545" /> <!-- Green 20% over Base -->
       </Color>
       <Color Name="TextFillPrimary">
         <Background Type="CT_RAW" Source="FFCDD6F4" /> <!-- Text -->
       </Color>
+      <Color Name="TextFillSecondary">
+        <Background Type="CT_RAW" Source="FFBAC2DE" /> <!-- Subtext1 -->
+      </Color>
+      <Color Name="TextFillTertiary">
+        <Background Type="CT_RAW" Source="FF9399B2" /> <!-- Overlay2 -->
+      </Color>
+      <Color Name="TextFillDisabled">
+        <Background Type="CT_RAW" Source="FF6C7086" /> <!-- Overlay0 -->
+      </Color>
       <Color Name="TextOnAccentFillPrimary">
-        <Background Type="CT_RAW" Source="FF181825" /> <!-- Mantle -->
+        <Background Type="CT_RAW" Source="FF1E1E2E" /> <!-- Base -->
       </Color>
       <Color Name="TextOnAccentFillSecondary">
-        <Background Type="CT_RAW" Source="FF181825" /> <!-- Mantle -->
+        <Background Type="CT_RAW" Source="CC1E1E2E" /> <!-- Base 80% -->
       </Color>
-      <Color Name="ControlFillDefault">
-        <Background Type="CT_RAW" Source="FF181825" /> <!-- Mantle -->
+      <Color Name="TextOnAccentFillSelectedText">
+        <Background Type="CT_RAW" Source="FFCDD6F4" /> <!-- Text -->
       </Color>
     </Category>
-
     <Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
       <Color Name="EnvironmentBackground">
         <Background Type="CT_RAW" Source="FF181825" /> <!-- Mantle -->
       </Color>
+      <Color Name="EnvironmentBody">
+        <Background Type="CT_RAW" Source="FF181825" /> <!-- Mantle -->
+      </Color>
+      <Color Name="EnvironmentBodyText">
+        <Background Type="CT_RAW" Source="FFCDD6F4" /> <!-- Text -->
+      </Color>
       <Color Name="EnvironmentBorder">
         <Background Type="CT_RAW" Source="FFCBA6F7" /> <!-- Mauve -->
       </Color>
-      <Color Name="EnvironmentIndicator">
-        <Background Type="CT_RAW" Source="66757575" /> <!-- Not Cat -->
+      <Color Name="EnvironmentBorderInactive">
+        <Background Type="CT_RAW" Source="FF313244" /> <!-- Surface0 -->
       </Color>
-      <Color Name="EnvironmentLogo">
-        <Background Type="CT_RAW" Source="FF9184EE" /> <!-- Not Cat -->
+      <Color Name="EnvironmentHeader">
+        <Background Type="CT_RAW" Source="FF181825" /> <!-- Mantle -->
+      </Color>
+      <Color Name="EnvironmentHeaderInactive">
+        <Background Type="CT_RAW" Source="FF181825" /> <!-- Mantle -->
+      </Color>
+      <Color Name="EnvironmentIndicator">
+        <Background Type="CT_RAW" Source="666C7086" /> <!-- Overlay0 40% -->
       </Color>
       <Color Name="EnvironmentLayeredBackground">
+        <Background Type="CT_RAW" Source="4D313244" /> <!-- Surface0 30% -->
+      </Color>
+      <Color Name="EnvironmentLogo">
+        <Background Type="CT_RAW" Source="FFCBA6F7" /> <!-- Mauve -->
+      </Color>
+      <Color Name="EnvironmentTab">
+        <Background Type="CT_RAW" Source="FF1E1E2E" /> <!-- Base -->
+      </Color>
+      <Color Name="EnvironmentTabInactive">
         <Background Type="CT_RAW" Source="FF181825" /> <!-- Mantle -->
       </Color>
-      <Color Name="ControlFillDefault">
-        <Background Type="CT_RAW" Source="FF181825" /> <!-- Mantle -->
+      <Color Name="CaptionControlCloseFillPrimary">
+        <Background Type="CT_RAW" Source="FFF38BA8" /> <!-- Red -->
+      </Color>
+      <Color Name="CaptionControlCloseFillSecondary">
+        <Background Type="CT_RAW" Source="E6F38BA8" /> <!-- Red 90% -->
+      </Color>
+      <Color Name="CaptionControlCloseTextFillPrimary">
+        <Background Type="CT_RAW" Source="FF1E1E2E" /> <!-- Base -->
+      </Color>
+      <Color Name="CaptionControlCloseTextFillSecondary">
+        <Background Type="CT_RAW" Source="B31E1E2E" /> <!-- Base 70% -->
+      </Color>
+      <Color Name="StatusBarBackgroundFillRest">
+        <Background Type="CT_RAW" Source="FF11111B" /> <!-- Crust -->
+      </Color>
+      <Color Name="StatusBarTextFillRest">
+        <Background Type="CT_RAW" Source="FFCDD6F4" /> <!-- Text -->
+      </Color>
+      <Color Name="StatusBarBackgroundFillBuilding">
+        <Background Type="CT_RAW" Source="FFCBA6F7" /> <!-- Mauve -->
+      </Color>
+      <Color Name="StatusBarTextFillBuilding">
+        <Background Type="CT_RAW" Source="FF1E1E2E" /> <!-- Base -->
+      </Color>
+      <Color Name="StatusBarBackgroundFillDebugging">
+        <Background Type="CT_RAW" Source="FFFAB387" /> <!-- Peach -->
+      </Color>
+      <Color Name="StatusBarTextFillDebugging">
+        <Background Type="CT_RAW" Source="FF1E1E2E" /> <!-- Base -->
+      </Color>
+      <Color Name="StatusBarBackgroundFillSolutionLoading">
+        <Background Type="CT_RAW" Source="FF89B4FA" /> <!-- Blue -->
+      </Color>
+      <Color Name="StatusBarTextFillSolutionLoading">
+        <Background Type="CT_RAW" Source="FF1E1E2E" /> <!-- Base -->
       </Color>
     </Category>
-    
   </Theme>
 </Themes>
