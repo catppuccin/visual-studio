@@ -1573,7 +1573,7 @@
         <Background Type="CT_RAW" Source="FF5C5C5C" />
       </Color>
       <Color Name="PageBackground">
-        <Background Type="CT_RAW" Source="FF1F1F1F" />
+        <Background Type="CT_RAW" Source="FF24273A" />
       </Color>
       <Color Name="StatusBannerErrorBorder">
         <Foreground Type="CT_RAW" Source="FFFF99A4" />
