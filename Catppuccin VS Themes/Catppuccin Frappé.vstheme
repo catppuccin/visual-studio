@@ -3756,7 +3756,7 @@
         <Background Type="CT_RAW" Source="FF3D3D3D" />
       </Color>
       <Color Name="PageSideBarExpanderSeparator">
-        <Background Type="CT_RAW" Source="FF292C3C" /> <!-- Lavender -->
+        <Background Type="CT_RAW" Source="FFBABBF1" /> <!-- Lavender -->
       </Color>
       <Color Name="PageSideBarExpanderText">
         <Background Type="CT_RAW" Source="FFFAFAFA" />

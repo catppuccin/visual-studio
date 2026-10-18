@@ -2620,7 +2620,7 @@
         <Background Type="CT_RAW" Source="66CCD0DA" />
       </Color>
       <Color Name="ScrollBarThumbPressedBackground">
-        <Background Type="CT_RAW" Source="FF4C4F69" /> <!-- Lavender -->
+        <Background Type="CT_RAW" Source="FF4C4F69" /> <!-- Text -->
       </Color>
       <Color Name="AutoHideResizeGrip">
         <Background Type="CT_RAW" Source="FFCDD0D9" />

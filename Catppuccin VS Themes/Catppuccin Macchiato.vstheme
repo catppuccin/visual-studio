@@ -2620,7 +2620,7 @@
         <Background Type="CT_RAW" Source="66363A4F" />
       </Color>
       <Color Name="ScrollBarThumbPressedBackground">
-        <Background Type="CT_RAW" Source="FFCAD3f5" /> <!-- Lavender -->
+        <Background Type="CT_RAW" Source="FFCAD3F5" /> <!-- Text -->
       </Color>
       <Color Name="AutoHideResizeGrip">
         <Background Type="CT_RAW" Source="FF3F4358" />
@@ -3756,7 +3756,7 @@
         <Background Type="CT_RAW" Source="FF3D3D3D" />
       </Color>
       <Color Name="PageSideBarExpanderSeparator">
-        <Background Type="CT_RAW" Source="FFB7BDf8" /> <!-- Lavender -->
+        <Background Type="CT_RAW" Source="FFB7BDF8" /> <!-- Lavender -->
       </Color>
       <Color Name="PageSideBarExpanderText">
         <Background Type="CT_RAW" Source="FFFAFAFA" />
@@ -12963,6 +12963,3 @@
     </Category>
   </Theme>
 </Themes>
-
-
-
