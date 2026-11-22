@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/catppuccin/visual-studio/compare/v1.6.3...v1.7.0) (2026-11-22)
+
+
+### Features
+
+* support Visual Studio 2026 and its Fluent UI ([#99](https://github.com/catppuccin/visual-studio/issues/99)) ([6408bd4](https://github.com/catppuccin/visual-studio/commit/6408bd4a8b034395151f518541a8cd902edec6be))
+
 ## [1.6.3](https://github.com/catppuccin/visual-studio/compare/v1.6.2...v1.6.3) (2025-09-02)
 
 
