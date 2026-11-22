@@ -3,6 +3,12 @@ name: release-please
 on:
   push:
     branches: [main]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing release tag to (re)publish to the Visual Studio Marketplace, e.g. v1.7.0
+        required: true
+        type: string
 
 permissions:
   contents: write
@@ -10,6 +16,7 @@ permissions:
 
 jobs:
   release-please:
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     outputs:
       release_created: ${{ steps.release.outputs.release_created }}
@@ -23,10 +30,17 @@ jobs:
 
   publish:
     needs: [release-please]
-    if: needs.release-please.outputs.release_created
+    if: ${{ !cancelled() && (needs.release-please.outputs.release_created || github.event_name == 'workflow_dispatch') }}
     runs-on: windows-latest
+    permissions:
+      contents: write
+      id-token: write # for trusted publishing
+    env:
+      TAG: ${{ needs.release-please.outputs.tag_name || inputs.tag }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TAG }}
       - uses: nuget/setup-nuget@v2
       - uses: microsoft/setup-msbuild@v2
       - name: Sync NuGet packages
@@ -34,12 +48,13 @@ jobs:
       - name: Build
         run: msbuild /p:configuration=Release /p:DeployExtension=false /p:ZipPackageCompressionLevel=normal 'Catppuccin VS Themes'
       - name: Upload Artifact to GitHub Release
+        if: github.event_name == 'push'
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release upload ${{ needs.release-please.outputs.tag_name }} "Catppuccin VS Themes\bin\Release\Catppuccin.for.Visual.Studio.vsix"
+        run: gh release upload ${{ env.TAG }} "Catppuccin VS Themes\bin\Release\Catppuccin.for.Visual.Studio.vsix"
       - name: Publish to Visual Studio Marketplace
-        uses: cezarypiatek/VsixPublisherAction@1.1
+        uses: madskristensen/publish-marketplace@v2.2.2
         with:
-          extension-file: '"Catppuccin VS Themes/bin/Release/Catppuccin.for.Visual.Studio.vsix"'
-          publish-manifest-file: '"Catppuccin VS Themes/marketplace.json"'
-          personal-access-code: ${{ secrets.VS_MARKETPLACE_TOKEN }}
+          extension-file: Catppuccin VS Themes/bin/Release/Catppuccin.for.Visual.Studio.vsix
+          publish-manifest-file: Catppuccin VS Themes/marketplace.json
+          oidc: true
