@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.1](https://github.com/catppuccin/visual-studio/compare/v1.7.0...v1.7.1) (2026-11-22)
+
+
+### Bug Fixes
+
+* shrink icon & logo to marketplace limits ([988322a](https://github.com/catppuccin/visual-studio/commit/988322ab3e32739b08cc621f2a11b96a45f02047))
+
 ## [1.7.0](https://github.com/catppuccin/visual-studio/compare/v1.6.3...v1.7.0) (2026-11-22)
 
 
