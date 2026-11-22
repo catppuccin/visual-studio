@@ -56,6 +56,8 @@
 - [eberthold](https://github.com/eberthold)
 - [Deijin27](https://github.com/Deijin27)
 - [moonbeeper](https://github.com/moonbeeper)
+- [SamStrife](https://github.com/SamStrife)
+- [stillgbx](https://github.com/stillgbx)
 
 &nbsp;
 
