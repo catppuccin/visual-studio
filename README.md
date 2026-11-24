@@ -58,6 +58,7 @@
 - [moonbeeper](https://github.com/moonbeeper)
 - [SamStrife](https://github.com/SamStrife)
 - [stillgbx](https://github.com/stillgbx)
+- [shiva-kar](https://github.com/shiva-kar)
 
 &nbsp;
 
