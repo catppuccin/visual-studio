@@ -12817,7 +12817,7 @@
         <Background Type="CT_RAW" Source="FF181926" /> <!-- Crust -->
       </Color>
       <Color Name="ControlSolidFillDefault">
-        <Background Type="CT_RAW" Source="FF494D64" /> <!-- Surface1 -->
+        <Background Type="CT_RAW" Source="FF24273A" /> <!-- Base -->
       </Color>
       <Color Name="FocusStrokeOuter">
         <Background Type="CT_RAW" Source="FFB7BDF8" /> <!-- Lavender -->
