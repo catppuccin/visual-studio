@@ -1378,16 +1378,16 @@
         <Background Type="CT_RAW" Source="FFDCE0E8" />
       </Color>
       <Color Name="InnerTabInactiveHoverText">
-        <Background Type="CT_RAW" Source="FF4C4F69" />
+        <Background Type="CT_RAW" Source="FF8839EF" />
       </Color>
       <Color Name="InnerTabTextFocused">
-        <Background Type="CT_RAW" Source="FF4C4F69" />
+        <Background Type="CT_RAW" Source="FF8839EF" />
       </Color>
       <Color Name="InnerTabTextHover">
-        <Background Type="CT_RAW" Source="FF4C4F69" />
+        <Background Type="CT_RAW" Source="FF8839EF" />
       </Color>
       <Color Name="InnerTabTextPressed">
-        <Background Type="CT_RAW" Source="FF4C4F69" />
+        <Background Type="CT_RAW" Source="FF8839EF" />
       </Color>
       <Color Name="ListItemBackgroundPressed">
         <Background Type="CT_RAW" Source="FFBCC0CC" />
@@ -1450,10 +1450,10 @@
         <Background Type="CT_RAW" Source="FFEFF1F5" />
       </Color>
       <Color Name="InnerTabActiveIndicator">
-        <Background Type="CT_RAW" Source="FFEFF1F5" />
+        <Background Type="CT_RAW" Source="FF8839EF" />
       </Color>
       <Color Name="InnerTabSelectedIndicator">
-        <Background Type="CT_RAW" Source="FFEFF1F5" />
+        <Background Type="CT_RAW" Source="FF8839EF" />
       </Color>
       <Color Name="HyperlinkHover">
         <Background Type="CT_RAW" Source="FF04A5E5" />
@@ -1486,7 +1486,7 @@
         <Background Type="CT_RAW" Source="00FFFFFF" />
       </Color>
       <Color Name="InnerTabActiveText">
-        <Background Type="CT_RAW" Source="FF1E1E1E" />
+        <Background Type="CT_RAW" Source="FF8839EF" />
       </Color>
       <Color Name="InnerTabBackground">
         <Background Type="CT_RAW" Source="00FFFFFF" />
@@ -1543,7 +1543,7 @@
         <Background Type="CT_RAW" Source="00FFFFFF" />
       </Color>
       <Color Name="InnerTabSelectedText">
-        <Background Type="CT_RAW" Source="FF1E1E1E" />
+        <Background Type="CT_RAW" Source="FF8839EF" />
       </Color>
       <Color Name="InnerTabText">
         <Background Type="CT_RAW" Source="FF1E1E1E" />
