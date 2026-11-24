@@ -1757,6 +1757,32 @@
         <Foreground Type="CT_RAW" Source="FFC6D0F5" />
       </Color>
     </Category>
+    <Category Name="EditorOverride" GUID="{656339d7-0e39-43e2-98aa-becc3f87ffa5}">
+      <Color Name="PopupBackground">
+        <Background Type="CT_RAW" Source="FF292C3C" />
+      </Color>
+      <Color Name="PopupBorder">
+        <Background Type="CT_RAW" Source="FF51576D" />
+      </Color>
+      <Color Name="PopupText">
+        <Background Type="CT_RAW" Source="FFC6D0F5" />
+      </Color>
+      <Color Name="PopupSubtleText">
+        <Background Type="CT_RAW" Source="FFA5ADCE" />
+      </Color>
+      <Color Name="PopupHyperlink">
+        <Background Type="CT_RAW" Source="FF8CAAEE" />
+      </Color>
+      <Color Name="PopupSelectedBackground">
+        <Background Type="CT_RAW" Source="FF414559" />
+      </Color>
+      <Color Name="PopupSelectedText">
+        <Background Type="CT_RAW" Source="FFC6D0F5" />
+      </Color>
+      <Color Name="PopupShadow">
+        <Background Type="CT_RAW" Source="66232634" />
+      </Color>
+    </Category>
     <Category Name="Environment" GUID="{624ed9c3-bdfd-41fa-96c3-7c824ea32e3d}">
       <Color Name="LightCaption">
         <Background Type="CT_RAW" Source="FFC6D0F5" />
@@ -2232,7 +2258,7 @@
         <Foreground Type="CT_RAW" Source="FFC6D0F5" />
       </Color>
       <Color Name="ToolTipBorder">
-        <Background Type="CT_RAW" Source="FF626880" />
+        <Background Type="CT_RAW" Source="FF51576D" />
       </Color>
       <Color Name="ToolTipHintText">
         <Background Type="CT_RAW" Source="FFC6D0F5" />
@@ -10270,13 +10296,13 @@
         <Background Type="CT_RAW" Source="66757575" />
       </Color>
       <Color Name="SurfaceStrokeColorFlyout">
-        <Background Type="CT_RAW" Source="33000000" />
+        <Background Type="CT_RAW" Source="FF51576D" />
       </Color>
       <Color Name="SurfaceStrokeColorInverse">
         <Background Type="CT_RAW" Source="0F000000" />
       </Color>
       <Color Name="DividerStrokeColorDefault">
-        <Background Type="CT_RAW" Source="15FFFFFF" />
+        <Background Type="CT_RAW" Source="FF414559" />
       </Color>
       <Color Name="FocusStrokeColorOuter">
         <Background Type="CT_RAW" Source="FFFFFFFF" />
@@ -10312,28 +10338,28 @@
         <Background Type="CT_RAW" Source="0FFFFFFF" />
       </Color>
       <Color Name="LayerOnMicaBaseAltFillColorTertiary">
-        <Background Type="CT_RAW" Source="FF2C2C2C" />
+        <Background Type="CT_RAW" Source="FF292C3C" />
       </Color>
       <Color Name="LayerOnMicaBaseAltFillColorTransparent">
         <Background Type="CT_RAW" Source="00FFFFFF" />
       </Color>
       <Color Name="SolidBackgroundFillColorBase">
-        <Background Type="CT_RAW" Source="FF202020" />
+        <Background Type="CT_RAW" Source="FF303446" />
       </Color>
       <Color Name="SolidBackgroundFillColorSecondary">
-        <Background Type="CT_RAW" Source="FF1C1C1C" />
+        <Background Type="CT_RAW" Source="FF292C3C" />
       </Color>
       <Color Name="SolidBackgroundFillColorTertiary">
-        <Background Type="CT_RAW" Source="FF282828" />
+        <Background Type="CT_RAW" Source="FF232634" />
       </Color>
       <Color Name="SolidBackgroundFillColorQuarternary">
-        <Background Type="CT_RAW" Source="FF2C2C2C" />
+        <Background Type="CT_RAW" Source="FF414559" />
       </Color>
       <Color Name="SolidBackgroundFillColorTransparent">
         <Background Type="CT_RAW" Source="00202020" />
       </Color>
       <Color Name="SolidBackgroundFillColorBaseAlt">
-        <Background Type="CT_RAW" Source="FF0A0A0A" />
+        <Background Type="CT_RAW" Source="FF232634" />
       </Color>
       <Color Name="SystemFillColorSuccess">
         <Background Type="CT_RAW" Source="FF6CCB5F" />
@@ -10366,10 +10392,10 @@
         <Background Type="CT_RAW" Source="08FFFFFF" />
       </Color>
       <Color Name="SystemFillColorSolidAttentionBackground">
-        <Background Type="CT_RAW" Source="FF2E2E2E" />
+        <Background Type="CT_RAW" Source="FF414559" />
       </Color>
       <Color Name="SystemFillColorSolidNeutralBackground">
-        <Background Type="CT_RAW" Source="FF2E2E2E" />
+        <Background Type="CT_RAW" Source="FF414559" />
       </Color>
     </Category>
     <Category Name="SQL Results - Grid" GUID="{6202ff3e-488e-4ead-92cb-be089659f8d7}">
@@ -11027,10 +11053,37 @@
         <Background Type="CT_RAW" Source="FF51576D" /> <!-- Surface1 -->
       </Color>
       <Color Name="SurfaceBackgroundFillDefault">
-        <Background Type="CT_RAW" Source="FF303446" /> <!-- Base -->
+        <Background Type="CT_RAW" Source="FF292C3C" /> <!-- Mantle -->
       </Color>
       <Color Name="SurfaceStrokeDefault">
         <Background Type="CT_RAW" Source="FF51576D" /> <!-- Surface1 -->
+      </Color>
+      <Color Name="SurfaceStrokeFlyout">
+        <Background Type="CT_RAW" Source="FF51576D" /> <!-- Surface1 -->
+      </Color>
+      <Color Name="DividerStrokeDefault">
+        <Background Type="CT_RAW" Source="FF414559" /> <!-- Surface0 -->
+      </Color>
+      <Color Name="ShadowFlyout">
+        <Background Type="CT_RAW" Source="66232634" /> <!-- Crust 40% -->
+      </Color>
+      <Color Name="ControlFillDefault">
+        <Background Type="CT_RAW" Source="FF414559" /> <!-- Surface0 -->
+      </Color>
+      <Color Name="ControlFillSecondary">
+        <Background Type="CT_RAW" Source="FF51576D" /> <!-- Surface1 -->
+      </Color>
+      <Color Name="ControlFillTertiary">
+        <Background Type="CT_RAW" Source="FF626880" /> <!-- Surface2 -->
+      </Color>
+      <Color Name="ControlStrokeDefault">
+        <Background Type="CT_RAW" Source="FF51576D" /> <!-- Surface1 -->
+      </Color>
+      <Color Name="CardBackgroundFillDefault">
+        <Background Type="CT_RAW" Source="FF292C3C" /> <!-- Mantle -->
+      </Color>
+      <Color Name="CardStrokeDefault">
+        <Background Type="CT_RAW" Source="FF414559" /> <!-- Surface0 -->
       </Color>
       <Color Name="SystemFillAttention">
         <Background Type="CT_RAW" Source="FF8CAAEE" /> <!-- Blue -->
