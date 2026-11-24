@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.2](https://github.com/catppuccin/visual-studio/compare/v1.7.1...v1.7.2) (2026-11-24)
+
+
+### Bug Fixes
+
+* match editor tooltips to selected theme ([#104](https://github.com/catppuccin/visual-studio/issues/104)) ([a915ec9](https://github.com/catppuccin/visual-studio/commit/a915ec963798f5272fa94ccd174efebe7417c272))
+
 ## [1.7.1](https://github.com/catppuccin/visual-studio/compare/v1.7.0...v1.7.1) (2026-11-22)
 
 
